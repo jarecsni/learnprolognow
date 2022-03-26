@@ -8,4 +8,4 @@ horizontal(line(point(X, Y), point(Z, Y))).
 horizontal(line(point(1, 1), point(2, Y))).
 
 % what second point gives a horizontal line from point(2, 3)
-horizontal(line(point(2, 3), P)).
+% horizontal(line(point(2, 3), P)).

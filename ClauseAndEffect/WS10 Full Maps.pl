@@ -15,3 +15,10 @@ word(mat, 2).
 
 % query:
 % fullmap([the, cat, sits, on, the, mat], X).
+
+:- begin_tests(lists).
+
+test(reverse) :-
+        reverse([a,b], [b,a]).
+
+:- end_tests(lists).
